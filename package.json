@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-receiver",
+  "version": "1.0.0",
+  "description": "Node JS app to receive messages from a Rabbit MQ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unnikrishnan-r/rabbitmq-receiver.git"
+  },
+  "author": "Unnikrishnan Ramachandran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unnikrishnan-r/rabbitmq-receiver/issues"
+  },
+  "homepage": "https://github.com/unnikrishnan-r/rabbitmq-receiver#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2"
+  }
+}
